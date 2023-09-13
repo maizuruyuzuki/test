@@ -1,5 +1,9 @@
 import streamlit as st
 
+# ページ設定（タブに表示されるタイトル、表示幅）
+st.set_page_config(page_title="ゆずき", layout="wide")
+
+
 # ユーザーからの入力を受け取るUIを作成
 st.title("麻雀点数計算アプリ")
 
