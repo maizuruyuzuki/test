@@ -32,5 +32,5 @@ binary_representation = bin(number)[2:]  # 'bin'関数で2進数に変換し、�
 st.info(f'🔢 10進数の「{number}」を2進数で表現すると「{binary_representation}」になります。 🔢')  # 2進数の表示をハイライト
 
 # 最小値と最大値の入力を受け取る
-min_val = st.number_input(`最小値を入力してください`, value=0)
-max_val = st/number_input(`最大値を入力してください`, value=10)
+min_val = st.number_input('最小値を入力してください', value=0)
+max_val = st.number_input('最大値を入力してください', value=10)
